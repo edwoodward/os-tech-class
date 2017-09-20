@@ -1,0 +1,16 @@
+Problem
+=======
+SQL Writing Exercise
+    Query to select all users from Texas and Lousiana. Should display their first and last name along with the state
+         Ed Woodward LA
+         Stan Lee TX
+         Jack Kirby TX
+         Steve Ditko LA
+         
+Solution 1
+==========
+select first_name, last_name, state from user where state = 'LA' and state = 'TX'
+
+Solution 2
+==========
+select first_name, last_name, state from user where state in ('LA', 'TX')

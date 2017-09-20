@@ -1,0 +1,15 @@
+Problem
+=======
+What servers would you need if...
+    80% of your content is read only
+    All data is stored in a database
+    Frontend is a SinglePage App
+    Each backend server can handle 200 requests at a time
+    Peak load is estimated to be 500 requests at a time
+
+Solution
+========
+Cache
+Frontend server
+3 backend servers
+Database server

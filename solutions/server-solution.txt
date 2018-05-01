@@ -13,3 +13,5 @@ Cache
 Frontend server
 3 backend servers
 Database server
+Ice cream server
+

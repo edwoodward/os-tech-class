@@ -14,3 +14,5 @@ select first_name, last_name, state from user where state = 'LA' and state = 'TX
 Solution 2
 ==========
 select first_name, last_name, state from user where state in ('LA', 'TX')
+
+We did all this in Tech class
